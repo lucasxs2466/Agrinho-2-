@@ -69,3 +69,41 @@ ul {
 li {
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    /* Estilos para tablets e dispositivos móveis */
+    .cabeçalho {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        justify-content: center; /* Centraliza os itens da navegação */
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    section {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móveis menores */
+    .atalhos {
+        flex-direction: column; /* Mostra os atalhos em coluna */
+        align-items: flex-end; /* Alinha os itens no final */
+    }
+
+    nav li {
+        margin-right: 5px;
+    }
+}
