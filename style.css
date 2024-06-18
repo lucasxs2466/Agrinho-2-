@@ -11,6 +11,12 @@ body {
     text-align: center;
 }
 
+.atalhos{
+    align-items: end;
+    justify-content: end;
+    padding: auto;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
